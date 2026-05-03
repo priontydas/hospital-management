@@ -1,0 +1,74 @@
+/* Main container */
+.navbar-contaier {
+    border-bottom: 1px solid rgba(128,128,128,0.17);
+    background-color: #fff;
+}
+
+/* Row full width */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0;
+}
+
+/* LEFT: Logo */
+.call-md-3 {
+    width: 20%;
+    display: flex;
+    align-items: flex-end;   /* logo নিচে নামবে */
+    padding-left: 20px;
+}
+
+/* RIGHT: Topbar + NavMenu */
+.call-md-9 {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;   /* 🔥 সবকিছু right এ যাবে */
+}
+
+/* 🔝 Topbar full width */
+.call-md-9 > div:first-child {
+    width: 100%;
+}
+
+/* Topbar style */
+.topbar-container {
+    display: flex;
+    justify-content: space-between;  /* full stretch */
+    align-items: center;
+    background-color: #008080;
+    color: #fff;
+    padding: 9px 20px;
+}
+
+/* ⬇️ NavMenu row */
+.call-md-9 > div:last-child {
+    display: flex;
+    justify-content: flex-end;   /* 🔥 main menu right এ */
+    align-items: flex-end;  
+    width: 100%;
+    padding: 10px 0;
+}
+
+/* Navbar container */
+.navbar {
+    display: flex;
+    justify-content: flex-end;   /* 🔥 links right এ push */
+    width: 100%;
+}
+
+/* Nav links */
+.nav-link {
+    font-weight: 600;
+    margin-left: 25px;   /* spacing between items */
+}
+
+/* Logo */
+.brand-logo {
+    max-width: 100%;   /* overflow prevent */
+    height: 120px;
+    display: block;
+}
+ 

@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "speciality": "Dentist",
+    "pic": "https://img.freepik.com/free-photo/male-dentist-smiling_23-2148827789.jpg",
+    "degree": "MD in Dental",
+    "about": "Experienced dentist with 5+ years of practice.",
+    "experience": 5,
+    "available": true,
+    "fee": 100,
+    "icon": "fa-solid fa-teeth"
+  },
+  {
+    "id": 2,
+    "name": "Dr. Sarah Khan",
+    "speciality": "Cardiologist",
+    "pic": "https://img.freepik.com/free-photo/confident-female-doctor_23-2148827774.jpg",
+    "degree": "MBBS, MD Cardiology",
+    "about": "Heart specialist with modern treatment approach.",
+    "experience": 8,
+    "available": true,
+    "fee": 200,
+    "icon": "fa-solid fa-heart-pulse"
+  },
+  {
+    "id": 3,
+    "name": "Dr. Ahmed Rahman",
+    "speciality": "Neurologist",
+    "pic": "https://img.freepik.com/free-photo/doctor-crossed-arms_23-2148854032.jpg",
+    "degree": "MBBS, Neurology Specialist",
+    "about": "Brain and nerve specialist with hospital experience.",
+    "experience": 10,
+    "available": false,
+    "fee": 250,
+    "icon": "fa-solid fa-brain"
+  },
+  {
+    "id": 4,
+    "name": "Dr. Emily Watson",
+    "speciality": "Dermatologist",
+    "pic": "https://img.freepik.com/free-photo/young-female-doctor-white-coat_23-2148892772.jpg",
+    "degree": "MBBS, Skin Specialist",
+    "about": "Expert in skin care and cosmetic treatments.",
+    "experience": 6,
+    "available": true,
+    "fee": 150,
+    "icon": "fa-solid fa-hand-dots"
+  }
+]

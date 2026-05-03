@@ -1,0 +1,88 @@
+/* MAIN GRID CONTAINER */
+.doc-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin: 40px auto;
+    max-width: 1100px;   /* 👈 important: center + control width */
+}
+
+/* CARD STYLE */
+.doc-container .card {
+    width: 240px; /* 👈 fixed better width */
+    padding: 15px;
+    cursor: pointer;
+    border: 1px solid #eee;
+    border-radius: 12px; /* 👈 smooth look */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+    text-align: center;
+    background-color: #fff;
+}
+
+/* HOVER EFFECT */
+.doc-container .card:hover {
+    transform: translateY(-6px); /* 👈 better than scale */
+    background-color: rgb(216,255,255);
+}
+
+/* IMAGE FIX */
+.doc-container .card img {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+/* LINK STYLE */
+.doc-container a {
+    text-decoration: none;
+    color: black;
+}
+
+/* BODY STYLE */
+.doc-container .card-body {
+    font-family: 'Gill Sans', Calibri, sans-serif;
+    text-align: center;
+}
+
+.doc-container h4 {
+    width: 100%;
+    order: 999;
+    text-align: center;
+}
+
+/* NAME */
+.doc-container h6 {
+    font-weight: 600;
+    margin: 10px 0 5px;
+}
+
+/* SMALL TEXT */
+.doc-container p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+/* FOOTER */
+.doc-container .card-footer {
+    width: 100%;
+    text-align: center;
+    background-color: transparent;
+    border-top: none;
+    margin-top: 10px;
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 600px) {
+    .doc-container {
+        gap: 15px;
+    }
+
+    .doc-container .card {
+        width: 100%;
+        max-width: 300px;
+    }
+}
